@@ -1,5 +1,3 @@
 # my-scrapy
 
-注意：
-1.抓取频率
-2.
+our scrapy demo
