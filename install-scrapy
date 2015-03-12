@@ -9,6 +9,8 @@ install lxml
   dependences:
     libxml2-2.7.2
     libxslt
+    download:ftp://xmlsoft.org/libxml2/
+    
   yum install  python-lxml
 
 install scrapy
@@ -17,5 +19,6 @@ install scrapy
     Twisted
     service_identity 
       pip install service_identity
+      
   pip install Scrapy
   
