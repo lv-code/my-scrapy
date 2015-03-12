@@ -1,0 +1,16 @@
+
+install python27
+
+install easy_install,pip
+
+install openssl
+
+install lxml
+  dependences:
+    libxml2-2.7.2
+    libxslt
+  yum install  python-lxml
+
+install scrapy
+  pip install Scrapy
+  
