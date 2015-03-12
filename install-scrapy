@@ -12,5 +12,10 @@ install lxml
   yum install  python-lxml
 
 install scrapy
+  dependences:
+    libevent
+    Twisted
+    service_identity 
+      pip install service_identity
   pip install Scrapy
   
