@@ -1,5 +1,7 @@
 
 install python27
+  http://blog.csdn.net/jcjc918/article/details/11022345
+  https://github.com/h2oai/h2o/wiki/Installing-python-2.7-on-centos-6.3.-Follow-this-sequence-exactly-for-centos-machine-only
 
 install easy_install,pip
 
