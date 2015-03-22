@@ -24,6 +24,7 @@ install scrapy
   dependences:
     libevent
     Twisted
+    yum install -y libffi libffi-devel
     service_identity 
       pip install service_identity
       
