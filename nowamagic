@@ -1,5 +1,17 @@
 
-scrapy shell http://www.nowamagic.net/librarys/veda/detail/2731
+
 print response.xpath('//div[@id="defend_3"]/p[3]')
 
-print response.xpath('//*[@id="post- "]/div[2]/div[4]/text()').extract()
+
+####  start  ####
+  #scrapy shell http://www.nowamagic.net/librarys/veda/detail/2731
+
+  >>>print response.xpath('//*[@id="post- "]/div[2]/div[4]/text()').extract()
+
+  >>>for i in  response.xpath('//*[@id="post- "]/div[2]/div[4]/text()').extract():
+  ...   print i
+  ... 
+  
+  服务器君一共花费了17.930 ms进行了2次数据库查询，努力地为您提供了这个页面。
+
+####  end  ####
