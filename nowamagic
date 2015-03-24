@@ -2,4 +2,4 @@
 scrapy shell http://www.nowamagic.net/librarys/veda/detail/2731
 print response.xpath('//div[@id="defend_3"]/p[3]')
 
- print response.xpath('//*[@id="post- "]/div[2]/div[4]/text()').extract()
+print response.xpath('//*[@id="post- "]/div[2]/div[4]/text()').extract()
