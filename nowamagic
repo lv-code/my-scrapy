@@ -22,7 +22,10 @@ for i in  response.xpath('//div[@id="post- "]//div').extract():
    print i
 #end
 
-
+# example
 scrapy shell http://www.nowamagic.net/librarys/veda/detail/2719
-
-
+for i in response.xpath('//div[contains(@class,"post_content readmood")]//p').extract():
+  print i
+  
+# 结论：  文章主题内容位于//div[contains(@class,"post_content readmood"
+# end
