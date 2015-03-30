@@ -23,6 +23,6 @@ for i in  response.xpath('//div[@id="post- "]//div').extract():
 #end
 
 
-
+scrapy shell http://www.nowamagic.net/librarys/veda/detail/2719
 
 
